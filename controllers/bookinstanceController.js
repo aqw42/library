@@ -2,6 +2,7 @@ const { body,validationResult } = require('express-validator');
 
 var Book = require('../models/book');
 var BookInstance = require('../models/bookinstance');
+var async = require('async');
 
 exports.bookinstance_list = function(req, res, next) {
 

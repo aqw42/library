@@ -1,4 +1,5 @@
 const { body,validationResult } = require('express-validator');
+var async = require('async');
 
 var Author = require('../models/author');
 
